@@ -1,1 +1,1 @@
-MyProject -> Project1 README file
+MyProject -> Project1 README file.
