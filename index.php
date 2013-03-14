@@ -8,7 +8,7 @@ if(!empty($param)) {
 }
 else {
 	/**
-	 * wara
+	 * Some comment
 	 * @rara: dsds
 	 */
 	echo "Cannot render - changed! HotFIX here!!!";
