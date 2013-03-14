@@ -10,6 +10,7 @@ else {
 	echo "master branch";
 	/**
 	 * C5
+	 * C6
 	 */
 	echo "server branch";
 	/**
