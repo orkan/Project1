@@ -9,7 +9,7 @@ if(!empty($param)) {
 else {
 	/**
 	 * Some comment
-	 * @rara: dsds
+	 * @Function: dsds
 	 */
 	echo "Cannot render - changed! HotFIX here!!!";
 }
