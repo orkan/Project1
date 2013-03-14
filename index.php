@@ -7,13 +7,16 @@ if(!empty($param)) {
 	var_dump($param);
 }
 else {
+	echo "master branch";
 	/**
-	 * master branch
-	 * C4
+	 * 
 	 */
-	echo "Cannot render - changed! HotFIX here!!!";
+	echo "server branch";
 	/**
-	 * experiment branch
-	 * C3
+	 * 
+	 */
+	echo "client branch";
+	/**
+	 * 
 	 */
 }
