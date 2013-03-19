@@ -1,4 +1,4 @@
 Project1
 ========
 
-Testing Eclipse EGit repository workflow
+Testing Eclipse EGit repository workflow...
