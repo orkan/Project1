@@ -2,7 +2,6 @@
 
 echo "master branch";
 /**
- * ...
  */
 echo "server branch";
 /**
