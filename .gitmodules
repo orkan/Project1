@@ -1,1 +1,3 @@
- 
+[submodule "vendors/orkan/Project2"]
+	path = vendors/orkan/Project2
+	url = git://github.com/orkan/Project2.git
