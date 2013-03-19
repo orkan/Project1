@@ -1,6 +1,6 @@
 <?php
 
-echo "master branch";
+echo "master";
 /**
  */
 echo "server branch";
