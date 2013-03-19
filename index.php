@@ -3,10 +3,10 @@
 echo "master";
 /**
  */
-echo "server branch";
+echo "server";
 /**
  */
-echo "client branch";
+echo "client";
 /**
  */
 
