@@ -17,7 +17,7 @@ jobs:
 
     - name: Run index php
       id: index_php
-      echo "::set-output name=index_output::$(php -f index.php)"
+      run: echo "::set-output name=index_output::$(php -f index.php)"
 
     - name: Get echo output from step1
       run: echo ${{ steps.index_php.outputs.index_output }}
