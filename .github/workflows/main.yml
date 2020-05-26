@@ -1,0 +1,22 @@
+name: CI
+on: [push]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+#    outputs:
+#      output1: ${{ steps.index_php.outputs.phpecho }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+    - name: Run index.php
+      id: index_php
+      run: php -f index.php
+      
+    - name: Get echo output from step1
+      run: echo ${outputs.index_php}
+
