@@ -21,5 +21,5 @@ jobs:
       run: php -f index.php
       
     - name: Get echo output from step1
-      run: echo ${{ outputs.index_php }}
+      run: echo ${{ steps.index_php.outputs.output }}
 
