@@ -12,9 +12,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
     - name: Run index.php
       id: index_php
+#      working-directory: .
       run: php -f index.php
       
     - name: Get echo output from step1
