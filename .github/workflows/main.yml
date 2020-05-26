@@ -15,11 +15,9 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
 
-    - name: Run index.php
+    - name: Run index php
       id: index_php
-#      working-directory: .
-      run: php -f index.php
-      
-    - name: Get echo output from step1
-      run: echo ${{ steps.index_php.outputs.output }}
+      echo "::set-output name=index_output::$(php -f index.php)"
 
+    - name: Get echo output from step1
+      run: echo ${{ steps.index_php.outputs.index_output }}
