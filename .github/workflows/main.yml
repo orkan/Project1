@@ -20,4 +20,4 @@ jobs:
       run: echo "::set-output name=index_output::$(php -f index.php)"
 
     - name: Get echo output from step1
-      run: echo "Generate endpoint JSON $steps.index_php.outputs.index_output"
+      run: echo "Generate endpoint JSON ${{ steps.index_php.outputs.index_output }}"
